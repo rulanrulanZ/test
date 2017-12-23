@@ -1,0 +1,12 @@
+
+
+ul.cisco-icons {
+	list-style: none;
+}
+
+ul.cisco-icons li {
+	display: inline-block;
+	padding: 15px 15px 40px;
+}
+
+

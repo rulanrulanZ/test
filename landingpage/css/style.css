@@ -1,0 +1,35 @@
+
+/*project content*/
+
+.left-image, .right-image{
+  width: 48.2%;
+  float:left;
+  height:318px;
+  /*border-radius: 8px;*/
+  /*box-shadow: rgb(226, 226, 226) 0px 4px 3px;*/
+  margin-right: 3.6%;
+  margin-bottom: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+
+
+.left-image{
+  background-image: url(../images/card_1.jpg);
+}
+
+
+.right-image{
+  background-image: url(../images/card_2.jpg);
+  margin-right: 0;
+}
+
+
+.full-image{
+  width: 1024px;
+  clear: both;
+  margin-bottom: 50px;
+}
+

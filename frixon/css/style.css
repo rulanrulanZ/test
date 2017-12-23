@@ -1,0 +1,74 @@
+/*project content*/
+
+.full-image{
+  width: 1024px;
+  clear: both;
+  margin-bottom: 50px;
+}
+
+
+
+.first-image, .second-image, .third-image{
+  width: 100%;
+  height: 740px;
+  margin: auto;
+  background-repeat: no-repeat;
+  margin-bottom: 15px;
+  background-position: 50%;
+}
+
+
+
+.first-image{
+  background-image: url(../images/touch-1.jpg);
+}
+
+.second-image{
+  background-image: url(../images/touch-2.jpg);
+}
+
+.third-image{
+  background-image: url(../images/touch-3.jpg);
+  height: 874px;
+}
+
+
+.left-image, .right-image, .middle-image{
+  width: 32%;
+  height: 408px;
+  float:left;
+  margin-right: 2%;
+  margin-bottom: 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+
+.left-image{
+  background-image: url(../images/promo-1.jpg);
+}
+
+.middle-image{
+  background-image: url(../images/promo-2.jpg);
+}
+
+.right-image{
+  background-image: url(../images/promo-3.jpg);
+  margin-right: 0;
+}
+
+
+
+.standards > .left-image{
+  background-image: url(../images/guide-1.jpg);
+}
+
+.standards > .middle-image{
+  background-image: url(../images/promo-2.jpg);
+}
+
+.standards > .right-image{
+  background-image: url(../images/promo-3.jpg);
+  margin-right: 0;
+}

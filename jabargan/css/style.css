@@ -1,0 +1,193 @@
+
+
+
+
+#left, #right{
+  list-style: none;
+  position:absolute;
+  top:20px;
+  padding:0;
+}
+
+#left{
+  left:30px;
+}
+
+#right{
+  right:30px;
+}
+
+#right a:hover{
+  text-decoration: none;
+}
+
+#left img{
+  width:35px;
+}
+
+
+#left li, #right li{
+  display:inline-block;
+  padding-right: 25px;
+}
+
+#right li{
+  padding-top: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*project content*/
+
+.description {
+  width: 700px;
+  margin: auto;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 500;
+}
+
+.wrap .left, .middle, .wrap .right, .middle-image, .middle-image-full{
+  width:320px;
+  height:300px;
+  float:left;
+  /*border-radius: 8px;*/
+  /*box-shadow: rgb(226, 226, 226) 0px 4px 3px;*/
+  margin-right: 1%;
+  margin-bottom: 20px;
+}
+
+.middle-image-full {
+  width: 100%;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+  margin: 0;
+}
+
+
+
+
+.middle-image-full.logo {
+  background-image: url(../images/new_logo.jpg);
+}
+
+.middle-image-full.bottles {
+  background-image: url(../images/new_bottles.jpg);
+}
+
+.middle-image-full.boxes {
+  background-image: url(../images/new_boxes.jpg);
+  background-size: 65%;
+  height: 330px;
+}
+
+
+.brochure-inside{
+  background-image: url(../images/brochure-inside.jpg);
+  width:497px;
+  margin-right: 30px;
+}
+
+.brochure-outside{
+  background-image: url(../images/brochure-outside.jpg);
+  margin-right: 0;
+  width:497px;
+}
+
+
+.full-image {
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  width: 100%;
+  clear: both;
+  margin-bottom: 50px;
+}
+
+
+
+
+.wrap .left, .middle, .wrap .right {
+  height: 350px;
+  width: 32%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50%;
+  margin-right: 1%;
+
+}
+
+.left.box {
+  background-image: url(../images/Box-vitamin-front.jpg);
+
+}
+
+.middle.site {
+  background-image: url(../images/jab-argan-1.png);
+}
+
+.right.bottle {
+  background-image: url(../images/jab-argan-reg.png);
+}
+
+
+.sub-title{
+  font-size: 24px;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid rgb(173, 163, 163);
+  padding: 8px 10px 8px 10px;
+  width: 145px;
+  margin-bottom: 15px;
+}
+
+.outside{
+  background-color: #F5F6EB;
+  width: 157px;
+  height: 55px;
+  margin-bottom: 15px;
+  padding: 6px;
+  clear:both;
+}
+
+
+
+
+.work{
+  height:auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

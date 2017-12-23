@@ -1,0 +1,454 @@
+@font-face{
+  font-family: haymaker;
+  src: url(Haymaker.ttf);
+}
+
+body{
+  margin:auto;
+  width:100%;
+}
+
+:focus, a:focus {
+outline: none;
+}
+
+
+.work-header{
+  height:220px;
+  width:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+
+
+
+#left, #right{
+  list-style: none;
+  position:absolute;
+  top:20px;
+  padding:0;
+}
+
+#left{
+  left:30px;
+}
+
+#right{
+  right:30px;
+}
+
+#right a:hover{
+  text-decoration: none;
+}
+
+#left img{
+  width:35px;
+}
+
+
+#left li, #right li{
+  display:inline-block;
+  padding-right: 25px;
+}
+
+#right li{
+  padding-top: 6px;
+}
+
+
+
+.project-drop{
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid rgb(210, 210, 210);
+  padding-right: 0px;
+}
+
+.dropdown-menu .last{
+  border:none;
+}
+
+.dropdown-menu>li>a{
+  padding:15px 65px 12px 15px;
+}
+
+.dropdown-menu{
+  padding: 0px 0px;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus{
+}
+
+
+.navigation{
+  width:100%;
+  height:80px;
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  position:fixed;
+  z-index: 900;
+  background-color: rgba(255, 255, 255, 0.76);
+}
+
+.navigation a{
+  color:black;
+}
+
+.navigation a:active{
+  color:black;
+  text-decoration: underline;
+}
+
+.previous-page{
+  width: 20%;
+  height: 70px;
+  z-index: 600;
+  left: 0;
+  /* font-size: 50px; */
+  text-align: center;
+  top: 89px;
+  /* color: rgba(255, 255, 255, 0.62); */
+  float: left;
+  position: relative;
+  background-image: url(../images/left-arrow.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+
+.next-page{
+  width: 20%;
+  height: 70px;
+  z-index: 600;
+  right: 0;
+  /* font-size: 50px; */
+  text-align: center;
+  top: 89px;
+  /* color: rgba(255, 255, 255, 0.62); */
+  float: left;
+  position: relative;
+  background-image: url(../images/right-arrow.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0%;
+}
+
+
+.visit{
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid rgb(173, 163, 163);
+  padding: 8px 10px 8px 10px;
+  width: 145px;
+  margin: auto;
+}
+
+.visit-hover{
+  width: 157px;
+  height: 55px;
+  margin-bottom: 15px;
+  padding: 6px;
+  margin:auto;
+}
+
+.visit-hover:hover{
+  background-color: #F5F6EB;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.icons img{
+  width:35px;
+}
+
+.icons{
+  height:100%;
+}
+
+.icons img{
+  width: 40px;
+}
+
+.icons ul{
+  width: 275px;
+  margin:0;
+}
+
+.icons ul li{
+  display: inline-block;
+  width: 60px;
+  height: 50px;
+}
+
+
+
+
+.work-title{
+  height:100%;
+  width:60%;
+  color:black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+  text-align: center;
+  padding-top: 95px;
+  float:left;
+}
+
+
+
+.logo{
+  background-image: url(../images/logo.png);
+  background-size: 80%;
+}
+
+.home{
+  background-image: url(../images/home.png);
+}
+
+.resume{
+  background-image: url(../images/resume.png);
+}
+
+.email{
+  background-image: url(../images/mail.png);
+}
+
+.linkedin{
+  background-image: url(../images/linked.png);
+}
+
+
+img.icon-action{
+  width: 90px;
+  height: 75px;
+  opacity: 0;
+  -webkit-transition: all 0.25s ease-out;
+  -webkit-transform: translateY(-20px);
+}
+
+.icon-still:hover .icon-action{
+  -webkit-transform: translateY(0px);
+  opacity: 1;
+}
+
+.icon-still{
+  text-decoration: none;
+}
+
+.icon-action{
+  top: 35px;
+  position: absolute;
+}
+
+.resume-on{
+  left: -28px;
+}
+
+.mail-on{
+  left: 35px;
+}
+
+.linkedin-on{
+  left: 98px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*project content*/
+
+.description {
+  width: 700px;
+  margin: auto;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 500;
+}
+
+.left-image, .right-image, .middle-image{
+  width:320px;
+  height:270px;
+  float:left;
+  /*border-radius: 8px;*/
+  /*box-shadow: rgb(226, 226, 226) 0px 4px 3px;*/
+  margin-right: 32px;
+  margin-bottom: 50px;
+}
+
+
+
+.left-image{
+  background-image: url(../images/jab-argan-reg.png);
+}
+
+.middle-image{
+  background-image: url(../images/jab-argan-vitamin.png);
+}
+
+.right-image{
+  background-image: url(../images/jab-argan-pomegranate.png);
+  margin-right: 0;
+}
+
+
+
+
+.full-image{
+  width: 1024px;
+  clear: both;
+  margin-bottom: 50px;
+}
+
+
+.sub-title{
+  font-size: 24px;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid rgb(173, 163, 163);
+  padding: 8px 10px 8px 10px;
+  width: 145px;
+  margin-bottom: 15px;
+}
+
+.outside{
+  background-color: #F5F6EB;
+  width: 157px;
+  height: 55px;
+  margin-bottom: 15px;
+  padding: 6px;
+}
+
+
+
+
+.work{
+  height:auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Carousel*/
+
+#myCarousel{
+  margin: auto;
+  width: 1024px;
+  height: 640px;
+  margin-bottom: 50px;
+}
+
+.carousel-inner{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img{
+  display: block;
+  min-width: 1024px;
+  min-height: 640px;
+}
+
+
+
+a .left .carousel-control{
+  background-image:none;
+}
+
+.right .carousel-control{
+  background-image:none;
+}
+
+.carousel-control{
+  opacity: .5;
+}
+
+
+
+.carousel-control .glyphicon-circle-arrow-left, .carousel-control .icon-prev {
+  margin-left: -15px;
+}
+
+.carousel-control .glyphicon-circle-arrow-right, .carousel-control .icon-prev {
+  margin-left: -15px;
+}
+
+.carousel-control .glyphicon-circle-arrow-left, .carousel-control .glyphicon-circle-arrow-right, .carousel-control .icon-prev, .carousel-control .icon-next {
+  width: 30px;
+  height: 30px;
+  margin-top: -15px;
+  font-size: 30px;
+}
+
+.carousel-control .icon-prev, .carousel-control .glyphicon-circle-arrow-left {
+  left: 50%;
+  margin-left: -10px;
+}
+
+.carousel-control .icon-prev, .carousel-control .glyphicon-circle-arrow-right{
+right: 40%;
+}
+
+.carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-circle-arrow-left, .carousel-control .glyphicon-circle-arrow-right {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+}
+
+
+.left, .right{
+  color:rgba(0, 0, 0, 1);
+}
+
+.left:hover, .right:hover{
+  color: rgba(0, 0, 0, 0.4);
+}
+
+
+
+@media screen and (min-width: 900px){
+.glyphicon-circle-arrow-left{
+  font-size:2em;
+}
+}
+
+ul,ol{
+  margin-bottom: 0px;
+}

@@ -1,0 +1,74 @@
+
+/*project content*/
+
+.full-image{
+  width: 1024px;
+  clear: both;
+  margin-bottom: 50px;
+}
+
+.left-image, .right-image, .middle-image{
+  width: 32%;
+  height:408px;
+  float:left;
+  /*border-radius: 8px;*/
+  /*box-shadow: rgb(226, 226, 226) 0px 4px 3px;*/
+  margin-right: 2%;
+  margin-bottom: 80px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50%;
+}
+
+
+.left-image{
+  background-image: url(../images/product-1.jpg);
+}
+
+.middle-image{
+  background-image: url(../images/product-2.jpg);
+}
+
+.right-image{
+  background-image: url(../images/product-3.jpg);
+  margin-right: 0;
+}
+
+
+
+.first-image, .second-image, .third-image, .fourth-image, .fifth-image{
+  width: 100%;
+  height: 375px;
+  margin: auto;
+  background-repeat: no-repeat;
+  margin-bottom: 15px;
+  background-position: 50%;
+}
+
+
+
+.first-image{
+  background-image: url(../images/touch-1.jpg);
+  height: 874px;
+}
+
+.second-image{
+  background-image: url(../images/touch-2.jpg);
+}
+
+.third-image{
+  background-image: url(../images/touch-3.jpg);
+}
+
+
+
+
+.standards > div{
+  height: 300px;
+}
+
+
+.standards > .first-image{
+  background-image: url(../images/guide-2.jpg);
+}
+
